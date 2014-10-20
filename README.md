@@ -14,7 +14,12 @@ On Saturday, I started the development on Xcode.
 My idea was to use a classic MVC model to develop this app.
 
 Unfortunately, I recently updated Xcode to the 6th version which has a lot of problems with Cocos2D. It took me the entire morning to try to find a solution to my problem. Finally I decided to download Xcode 5.
-I finally started the development during the afternoon. By the end of the day I created the model part for the player.
+
+I finally started the development during the afternoon. 
+
+My first step was to work with the view to check out how big my sprites were and how much I would have to reduce them in the implementation of the model. 
+
+By the end of the day I created the model part for the player.
 I had to stop my work on this application because of other work I had to do for the school.
 
 I hope I will be able to work on it again asap.
