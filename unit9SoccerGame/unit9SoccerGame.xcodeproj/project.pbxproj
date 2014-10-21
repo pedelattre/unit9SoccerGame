@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA4FD90019F656590059F303 /* ZizouCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4FD8FD19F656590059F303 /* ZizouCharacter.m */; };
+		BA4FD90119F656590059F303 /* ZizouSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4FD8FF19F656590059F303 /* ZizouSprite.m */; };
+		BA4FD90719F656640059F303 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4FD90419F656640059F303 /* IntroScene.m */; };
+		BA4FD90819F656640059F303 /* PlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4FD90619F656640059F303 /* PlayScene.m */; };
 		BAFCC20419F5BDB80068289E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFCC20319F5BDB80068289E /* QuartzCore.framework */; };
 		BAFCC20619F5BDB80068289E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFCC20519F5BDB80068289E /* OpenGLES.framework */; };
 		BAFCC20819F5BDB80068289E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFCC20719F5BDB80068289E /* OpenAL.framework */; };
@@ -209,10 +213,6 @@
 		BAFCC49F19F5BDE00068289E /* rightArm.png in Resources */ = {isa = PBXBuildFile; fileRef = BAFCC49619F5BDE00068289E /* rightArm.png */; };
 		BAFCC4A019F5BDE00068289E /* zizou.png in Resources */ = {isa = PBXBuildFile; fileRef = BAFCC49719F5BDE00068289E /* zizou.png */; };
 		BAFCC4AC19F5BE110068289E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFCC4A319F5BE110068289E /* AppDelegate.m */; };
-		BAFCC4AD19F5BE110068289E /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFCC4A519F5BE110068289E /* IntroScene.m */; };
-		BAFCC4AE19F5BE110068289E /* PlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFCC4A719F5BE110068289E /* PlayScene.m */; };
-		BAFCC4AF19F5BE110068289E /* ZizouCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFCC4A919F5BE110068289E /* ZizouCharacter.m */; };
-		BAFCC4B019F5BE110068289E /* ZizouSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFCC4AB19F5BE110068289E /* ZizouSprite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -226,6 +226,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA4FD8FC19F656590059F303 /* ZizouCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZizouCharacter.h; sourceTree = "<group>"; };
+		BA4FD8FD19F656590059F303 /* ZizouCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZizouCharacter.m; sourceTree = "<group>"; };
+		BA4FD8FE19F656590059F303 /* ZizouSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZizouSprite.h; sourceTree = "<group>"; };
+		BA4FD8FF19F656590059F303 /* ZizouSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZizouSprite.m; sourceTree = "<group>"; };
+		BA4FD90319F656640059F303 /* IntroScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroScene.h; sourceTree = "<group>"; };
+		BA4FD90419F656640059F303 /* IntroScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroScene.m; sourceTree = "<group>"; };
+		BA4FD90519F656640059F303 /* PlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayScene.h; sourceTree = "<group>"; };
+		BA4FD90619F656640059F303 /* PlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayScene.m; sourceTree = "<group>"; };
 		BAFCC20019F5BDB80068289E /* unit9SoccerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unit9SoccerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFCC20319F5BDB80068289E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BAFCC20519F5BDB80068289E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -629,14 +637,6 @@
 		BAFCC49719F5BDE00068289E /* zizou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zizou.png; sourceTree = "<group>"; };
 		BAFCC4A219F5BE110068289E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BAFCC4A319F5BE110068289E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BAFCC4A419F5BE110068289E /* IntroScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroScene.h; sourceTree = "<group>"; };
-		BAFCC4A519F5BE110068289E /* IntroScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroScene.m; sourceTree = "<group>"; };
-		BAFCC4A619F5BE110068289E /* PlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayScene.h; sourceTree = "<group>"; };
-		BAFCC4A719F5BE110068289E /* PlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayScene.m; sourceTree = "<group>"; };
-		BAFCC4A819F5BE110068289E /* ZizouCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZizouCharacter.h; sourceTree = "<group>"; };
-		BAFCC4A919F5BE110068289E /* ZizouCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZizouCharacter.m; sourceTree = "<group>"; };
-		BAFCC4AA19F5BE110068289E /* ZizouSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZizouSprite.h; sourceTree = "<group>"; };
-		BAFCC4AB19F5BE110068289E /* ZizouSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZizouSprite.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -661,6 +661,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA4FD8FA19F6564C0059F303 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA4FD8FB19F656590059F303 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA4FD8FC19F656590059F303 /* ZizouCharacter.h */,
+				BA4FD8FD19F656590059F303 /* ZizouCharacter.m */,
+				BA4FD8FE19F656590059F303 /* ZizouSprite.h */,
+				BA4FD8FF19F656590059F303 /* ZizouSprite.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA4FD90219F656640059F303 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA4FD90319F656640059F303 /* IntroScene.h */,
+				BA4FD90419F656640059F303 /* IntroScene.m */,
+				BA4FD90519F656640059F303 /* PlayScene.h */,
+				BA4FD90619F656640059F303 /* PlayScene.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BAFCC1F719F5BDB80068289E = {
 			isa = PBXGroup;
 			children = (
@@ -1464,16 +1493,11 @@
 		BAFCC4A119F5BE110068289E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BA4FD90219F656640059F303 /* View */,
+				BA4FD8FB19F656590059F303 /* Model */,
+				BA4FD8FA19F6564C0059F303 /* Controller */,
 				BAFCC4A219F5BE110068289E /* AppDelegate.h */,
 				BAFCC4A319F5BE110068289E /* AppDelegate.m */,
-				BAFCC4A419F5BE110068289E /* IntroScene.h */,
-				BAFCC4A519F5BE110068289E /* IntroScene.m */,
-				BAFCC4A619F5BE110068289E /* PlayScene.h */,
-				BAFCC4A719F5BE110068289E /* PlayScene.m */,
-				BAFCC4A819F5BE110068289E /* ZizouCharacter.h */,
-				BAFCC4A919F5BE110068289E /* ZizouCharacter.m */,
-				BAFCC4AA19F5BE110068289E /* ZizouSprite.h */,
-				BAFCC4AB19F5BE110068289E /* ZizouSprite.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1605,7 +1629,6 @@
 				BAFCC3D019F5BDB90068289E /* OALAudioFile.m in Sources */,
 				BAFCC2A719F5BDB80068289E /* CCDrawNode.m in Sources */,
 				BAFCC39219F5BDB90068289E /* OALAudioTracks.m in Sources */,
-				BAFCC4B019F5BE110068289E /* ZizouSprite.m in Sources */,
 				BAFCC25E19F5BDB80068289E /* CCEffectColor.m in Sources */,
 				BAFCC25819F5BDB80068289E /* CCEffect.m in Sources */,
 				BAFCC3F619F5BDBA0068289E /* CCBAnimationManager.m in Sources */,
@@ -1621,9 +1644,9 @@
 				BAFCC31519F5BDB90068289E /* CCTexture.m in Sources */,
 				BAFCC36719F5BDB90068289E /* CGPointExtension.m in Sources */,
 				BAFCC29119F5BDB80068289E /* CCActionTween.m in Sources */,
-				BAFCC4AD19F5BE110068289E /* IntroScene.m in Sources */,
 				BAFCC3F319F5BDBA0068289E /* CCAnimationManager.m in Sources */,
 				BAFCC2C819F5BDB90068289E /* CCNode+Debug.m in Sources */,
+				BA4FD90819F656640059F303 /* PlayScene.m in Sources */,
 				BAFCC26619F5BDB80068289E /* CCEffectNode.m in Sources */,
 				BAFCC2E019F5BDB90068289E /* CCPhysicsBody.m in Sources */,
 				BAFCC35019F5BDB90068289E /* NSEvent+CC.m in Sources */,
@@ -1638,6 +1661,7 @@
 				BAFCC3FF19F5BDBA0068289E /* CCBsequence.m in Sources */,
 				BAFCC3EA19F5BDBA0068289E /* CCTableView.m in Sources */,
 				BAFCC2B919F5BDB90068289E /* CCLayout.m in Sources */,
+				BA4FD90719F656640059F303 /* IntroScene.m in Sources */,
 				BAFCC2E919F5BDB90068289E /* CCPhysicsShape.m in Sources */,
 				BAFCC26F19F5BDB80068289E /* CCRenderer.m in Sources */,
 				BAFCC30419F5BDB90068289E /* CCSprite.m in Sources */,
@@ -1647,7 +1671,6 @@
 				BAFCC2ED19F5BDB90068289E /* CCProgressNode.m in Sources */,
 				BAFCC2F919F5BDB90068289E /* CCResponderManager.m in Sources */,
 				BAFCC32B19F5BDB90068289E /* CCTransition.m in Sources */,
-				BAFCC4AF19F5BE110068289E /* ZizouCharacter.m in Sources */,
 				BAFCC38219F5BDB90068289E /* OALActionManager.m in Sources */,
 				BAFCC2E619F5BDB90068289E /* CCPhysicsNode.m in Sources */,
 				BAFCC38819F5BDB90068289E /* OALUtilityActions.m in Sources */,
@@ -1679,17 +1702,18 @@
 				BAFCC3A419F5BDB90068289E /* ALContext.m in Sources */,
 				BAFCC27E19F5BDB80068289E /* CCActionCatmullRom.m in Sources */,
 				BAFCC31019F5BDB90068289E /* CCSpriteFrameCache.m in Sources */,
+				BA4FD90019F656590059F303 /* ZizouCharacter.m in Sources */,
 				BAFCC29B19F5BDB80068289E /* CCClippingNode.m in Sources */,
 				BAFCC3C619F5BDB90068289E /* mach_timing.c in Sources */,
 				BAFCC30019F5BDB90068289E /* CCScheduler.m in Sources */,
 				BAFCC31E19F5BDB90068289E /* CCTiledMap.m in Sources */,
-				BAFCC4AE19F5BE110068289E /* PlayScene.m in Sources */,
 				BAFCC26019F5BDB80068289E /* CCEffectColorPulse.m in Sources */,
 				BAFCC2F619F5BDB90068289E /* CCResponder.m in Sources */,
 				BAFCC2F219F5BDB90068289E /* CCRenderTexture.m in Sources */,
 				BAFCC2AA19F5BDB80068289E /* ccFPSImages.m in Sources */,
 				BAFCC3BC19F5BDB90068289E /* OALAudioSession.m in Sources */,
 				BAFCC34D19F5BDB90068289E /* CCWindow.m in Sources */,
+				BA4FD90119F656590059F303 /* ZizouSprite.m in Sources */,
 				BAFCC30D19F5BDB90068289E /* CCSpriteFrame.m in Sources */,
 				BAFCC33919F5BDB90068289E /* CCES2Renderer.m in Sources */,
 				BAFCC28E19F5BDB80068289E /* CCActionProgressTimer.m in Sources */,
@@ -1915,6 +1939,7 @@
 				BAFCC48A19F5BDBA0068289E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAFCC48B19F5BDBA0068289E /* Build configuration list for PBXNativeTarget "unit9SoccerGame" */ = {
 			isa = XCConfigurationList;
@@ -1923,6 +1948,7 @@
 				BAFCC48D19F5BDBA0068289E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
